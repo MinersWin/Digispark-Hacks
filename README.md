@@ -1,5 +1,5 @@
 # Digispark-Hacks
-A collection of useful Arduino Scripts for the Digispark (Digistump)
+A collection of useful Arduino Scripts for the Digispark (Digistump.com)
 
 ## Summary
 - open_powershell.ino (Open the Windows Powershell as Administrator)
