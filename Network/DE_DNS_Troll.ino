@@ -43,3 +43,4 @@ void setup() {
   DigiKeyboard.println("ipconfig /flushdns");
   DigiKeyboard.println("exit");
 }
+void loop() {}
