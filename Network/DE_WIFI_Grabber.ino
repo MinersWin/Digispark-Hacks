@@ -18,3 +18,4 @@ void setup() {
   DigiKeyboard.print("exit");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
+void loop() {}
