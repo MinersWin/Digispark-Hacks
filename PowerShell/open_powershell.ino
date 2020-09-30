@@ -23,6 +23,4 @@ void setup() {
   DigiKeyboard.delay(timer);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
-
-void loop() {
-}
+void loop() {}
