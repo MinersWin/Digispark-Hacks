@@ -1,8 +1,5 @@
 #include "DigiKeyboard.h"
 void setup() {
-}
-
-void loop() {
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
@@ -16,5 +13,5 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_F11);
-  for(;;){}
 }
+void loop() {}
